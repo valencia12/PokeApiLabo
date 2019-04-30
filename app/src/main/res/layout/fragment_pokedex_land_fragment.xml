@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".fragments.LandPokemonContent"
+              android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/land_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/land_pokemon_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            <TextView
+                    android:id="@+id/land_pokemon_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/land_pokemon_height"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

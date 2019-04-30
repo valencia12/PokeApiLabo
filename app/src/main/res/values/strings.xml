@@ -3,4 +3,7 @@
     <string name="text_fill">Fill</string>
     <string name="bt_txt_Enviar">Enviar</string>
     <string name="et_txt_descripccion">Nombre o ID de tipo de pokemon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
